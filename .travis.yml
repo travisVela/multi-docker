@@ -9,7 +9,7 @@ script:
   - docker run -e CI=true travisvela/react-test npm test
 after_success:
   - docker build -t travisvela/multi-client ./client
-  - docker build -t travivela/multi-nginx ./nginx
+  - docker build -t travisvela/multi-nginx ./nginx
   - docker build -t travisvela/multi-server ./server
   - docker build -t travisvela/multi-worker ./worker
 
