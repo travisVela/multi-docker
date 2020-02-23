@@ -18,5 +18,5 @@ after_success:
   # take images and push them to docker hub
   - docker push travisvela/multi-client
   - docker push travisvela/multi-server
-  - docker push travivela/multi-nginx
+  - docker push travisvela/multi-nginx
   - docker push travisvela/multi-worker
