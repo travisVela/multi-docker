@@ -20,6 +20,7 @@ after_success:
   - docker push travisvela/multi-server
   - docker push travisvela/multi-nginx
   - docker push travisvela/multi-worker
+  
 
 # deploy:
 #   edge: true
